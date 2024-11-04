@@ -2,15 +2,12 @@
     padding: 0;
     margin: 0;
 }
-.header {
-    text-align: center;
-    margin: 20px 0;
-}
+
 .boady{
     overflow: hidden;
     clear: both;
     
-    background-color: #020303;
+    background-color: #000000;
 }
 .column{
     float: left;
@@ -19,15 +16,46 @@
     margin: 20px 1.15%;
     background-color: #b2d6ff;
 }
-/* .usename{
-    margin-top: 30px;
-} */
-comment{
+
+.comment{
     margin: 10px;
     overflow: hidden;
     color: white;
 }
+section{
+    padding: 5em 2em;
+}
 img{
-    width: 100px;  
+    /* width: 100px;  
     height: 100px;
+    display: block;
+     */
+     margin-top: 20px;
+     width: 200px;
+     border-radius: 50%;
+     
+}
+.title{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+
+
+}
+.title strong{
+    display: block;
+}
+.text{
+    font-size: 1.2em;
+    
+    
+}
+.intro{
+    text-align: center;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+body{
+    background-color: grey;
 }
